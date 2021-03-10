@@ -53,6 +53,11 @@
 				<ammoSet>AmmoSet_45ACP</ammoSet>
 			</li>
 		</comps>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>0.8</DrawSize>
+		  </li>
+		</modExtensions>
 		<smeltProducts>
 			<Pistol_Component>1</Pistol_Component>
 			<Weapon_Parts>1</Weapon_Parts>
@@ -62,7 +67,7 @@
 	<ThingDef ParentName="BaseGun_ShortBarreled">
 		<defName>RF_Gun_Deringer</defName>
 		<label>Revolver Smith&amp;Wesson M1917</label>
-		<description>A Smith&amp;Wesson M1917 revolver. Accurate at short and medium range, but long aim, cooldown and reload period.</description>
+		<description>A Smith&amp;Wesson M1917 revolver. Accurate at short and medium range, but long aim and cooldown period.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SmithWesson</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -113,6 +118,11 @@
 				<ammoSet>AmmoSet_45ACP</ammoSet>
 			</li>
 		</comps>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>0.8</DrawSize>
+		  </li>
+		</modExtensions>
 		<smeltProducts>
 			<Pistol_Component>1</Pistol_Component>
 			<Weapon_Parts>1</Weapon_Parts>
