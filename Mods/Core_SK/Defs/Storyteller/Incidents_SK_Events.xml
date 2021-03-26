@@ -246,7 +246,7 @@ A seemingly endless supernatural rain has begun, altering the very composition o
 		</disabledWhen>
 		<modExtensions>
 			<li Class="SK.ExtendedIncident">
-				<allowedTemperatureRange>0~30</allowedTemperatureRange>
+				<allowedTemperatureRange>-5~35</allowedTemperatureRange>
 				<!-- current map temperature-->
 				<allowedBiomeRainfall>700~8000</allowedBiomeRainfall>
 				<!--300,600 - desert. 800-1200 - arid. 2000-4000 tropic/swamp -->
@@ -597,7 +597,7 @@ Drought is devastating for plant life and will quickly destroy all the crops not
 		<earliestDay>14</earliestDay>
 		<modExtensions>
 			<li Class="SK.ExtendedIncident">
-				<allowedTemperatureRange>0~999</allowedTemperatureRange>
+				<allowedTemperatureRange>-5~999</allowedTemperatureRange>
 				<!-- current map temperature-->
 			</li>
 		</modExtensions>
